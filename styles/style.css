@@ -7,31 +7,36 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
+
 }
 
-.header{
+.header {
   position: relative;
   display: flex;
+  align-items: center;
   margin: 0;
   height: 100vh;
+  background-color: #f2f2f2;
   min-height: 600px;
   max-height: 756px;
   z-index: 1;
   /* выше установили ограничения для секции */
 }
-.header__logo{
+
+.logo {
+  background-image: url(/images/logo_place_header.svg);
 }
-.header_place_logo{
+
+.header_place_logo {
+  width: 228px;
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 228px;
-  height: 32px;
   z-index: 2;
 }
-.header__title{
-  align-items: center;
+
+.header__title {
   max-width: 730px;
   padding-left: 64px;
   line-height: 96px;
@@ -39,7 +44,8 @@
   font-weight: 600;
   z-index: 5;
 }
-.header__subtitle{
+
+.header__subtitle {
   align-items: flex-end;
   position: absolute;
   max-width: 388px;
@@ -50,18 +56,21 @@
   font-weight: normal;
   z-index: 6;
 }
-.header__link{
+
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
-.header__main-illustration{
+
+.header__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-height: 608px;
-  max-width: 765px;
+  height: 608px;
+  width: 765px;
   z-index: 4;
 }
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
@@ -72,9 +81,46 @@
   width: 568px;
   z-index: 3;
 }
-
+.discription{
+  padding-top: 100px;
+  margin: 0;
+}
+.two-columns{
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.two-columns__brief{
+  margin: 0;
+  color: #2f80ed;
+  min-width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns__main-text{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width :80%;
+  min-width: 784px;
+}
+.two-columns__paragraph{
+  margin: 0;
+  padding-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+.table__cell_theme_dark{
   width: 200px;
   color: white;
   margin-right: 0;
