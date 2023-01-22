@@ -241,7 +241,7 @@
   height: 100vh;
   min-height: 637px;
   max-height: 890px;
-  background-color: #000;
+  background-color: #1f1f1f;
 }
 
 .section-title_theme_dark {
@@ -278,7 +278,7 @@
 /* FOOTER */
 
 .footer{
-  background-color: #000;
+  background-color: #1f1f1f;
   display: flex;
   min-height: 350px;
   padding-top: 60px;
