@@ -6,6 +6,8 @@
 
 }
 
+/* HEADER */
+
 .header {
   position: relative;
   display: flex;
@@ -77,6 +79,8 @@
   z-index: 3;
 }
 
+/* DISCRIPRION */
+
 .discription {
   padding-top: 100px;
   margin: 0;
@@ -114,12 +118,17 @@
   font-size: 24px;
   font-weight: normal;
 }
+.two-columns__paragraph:last-child{
+  padding-bottom: 0;
+}
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
 }
+
+/* DIGITS */
 
 .digits {
   display: flex;
@@ -179,6 +188,8 @@
   font-weight: normal;
 }
 
+/* FEYNMAN */
+
 .feynman {
   position: relative;
   padding-top: 100px;
@@ -221,6 +232,8 @@
   color: #2f80ed;
 }
 
+/* KAUFMAN */
+
 .kaufman {
   overflow: hidden;
   position: relative;
@@ -262,36 +275,92 @@
   margin-right: 0;
   margin-top: 80px;
 }
-.footer{
+/* FOOTER */
 
+.footer{
+  background-color: #000;
+  display: flex;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .logo_place_footer{
-
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url(/images/logo_place_footer.svg);
 }
-.footer__column{
-
+.footer__columns{
+  margin: 0 auto 0 auto;
+  position: relative;
+  min-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .footer__column_content_copyright{
-
+  flex-basis: 711px;
 }
 .footer__author{
-
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 .footer__column_content_info{
-
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 16px;
+  flex-shrink: 2;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer__column_content_social{
-
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer__column-link{
-
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top:20px;
+  margin-bottom: 16px;
 }
 .footer__column-links{
-
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
 }
 .footer__column-heading{
-
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
 }
-.footer__social-icons{
-  
+.footer__social-icon{
+  background-size: contain;
+  position: relative;
+  margin-right: 10px;
+  min-width: 16px;
+  min-height: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
 }

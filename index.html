@@ -11,7 +11,7 @@
 
 <body>
   <div class="page">
-    <div class="header">
+    <header class="header">
       <div class="logo header_place_logo"></div>
       <div class="header__title">Научиться учиться</div>
       <div class="header__subtitle">
@@ -21,7 +21,7 @@
       </div>
       <img class="header__main-illustration" src="/images/header-image.png" alt="two_again">
       <div class="header__square-pic"></div>
-    </div>
+    </header>
     <main class="content">
       <section class="discription">
         <div class="two-columns">
@@ -138,30 +138,37 @@
           <div class="kaufman__triangle"></div>
         </div>
       </section>
-      <footer class="footer logo_place_footer">
-        <div class="footer__column footer__column_content_copyright">
-          <p class="footer__author">&#169 Иван Елисеев</p>
-          <div class="footer__column_content_info footer__column_content_social">
-            <div class="footer__column-link">
-              <ul class="footer__column-links">
-                <h3 class="footer__column-heading">О Практикуме</h3>
-                <li class="footer__column-links"><a href="#">Главная</a></li>
-                <li class="footer__column-links"><a href="#">Концепция</a></li>
-                <li class="footer__column-links"><a href="#">Наставники</a>
-                </li>
-              </ul>
-              <ul class="footer__social-icons">
-                <h3 class="footer__column-heading">Соцсети</h3>
-                <li class="footer__social-icons"><a href="#"><img src="/youtube-icon.svg" alt="youtube">YouYube</a></li>
-                <li class="footer__social-icons"><a href="#"><img src="/images/vk_color_white.svg" alt="VKontakte">ВКонтакте</a>
-                </li>
-                <li class="footer__social-icons"><a href="#"><img src="/tiktok-icon.svg" alt="TikTok">TikTok</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
     </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <p class="footer__author">&copy; Виктор Абанькин</p>
+        </div>
+        <div class="footer__column_content_info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-link">
+            <ul class="footer__column-links">
+              <li><a class="footer__column-links" href="#">Главная</a></li>
+              <li><a class="footer__column-links" href="#">Концепция</a></li>
+              <li><a class="footer__column-links" href="#">Наставники</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-link">
+            <ul class="footer__social-icon">
+              <li><a class="footer__social-icon" href="#"><img class="footer__social-icon" src="/youtube-icon.svg" alt="youtube">YouTube</a>
+              </li>
+              <li><a class="footer__social-icon" href="#"><img class="footer__social-icon" src="/images/vk_color_white.svg" alt="VKontakte">ВКонтакте</a>
+              </li>
+              <li><a class="footer__social-icon" href="#"><img class="footer__social-icon" src="/tiktok-icon.svg" alt="TikTok">TikTok</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 
