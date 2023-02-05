@@ -1,0 +1,9 @@
+.footer__column_content_info {
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
