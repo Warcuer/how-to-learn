@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -16,13 +15,13 @@
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни?<a class="header__link" href="#">Узнать &#8594;</a></p>
+        жизни?<a class="header__link" href="#"> Узнать &#8594;</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Опять два">
       <div class="rotation header__square-pic"></div>
     </header>
     <main class="content">
       <!-- DESCRIPTION -->
-      <section aria-label="Описание" class="discription">
+      <section aria-label="Описание" class="description">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -82,10 +81,10 @@
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class="video__iframes">
           <li>
-            <iframe class="video__iframe" style="border: none" title="Джош Кауфман: как научится чему угодно за 20 часов" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+            <iframe class="video__iframe" title="Джош Кауфман: как научится чему угодно за 20 часов" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
           </li>
           <li>
-            <iframe class="video__iframe" style="border: none" title="Тим Урбан: Прокрастинация" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+            <iframe class="video__iframe" title="Тим Урбан: Прокрастинация" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           </li>
         </ul>
       </section>
@@ -156,11 +155,13 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+              миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
+              смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
-          <h3 class="khan__quote-author-subline">Кинорежиссер, продюсер</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Книга Саламан Хан Весь мир - школа" class="khan__book-pic">
             <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
@@ -222,16 +223,16 @@
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt=""></a>
+          <a href="#" class="resources__link"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
         </li>
         <li>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" alt=""></a>
+          <a href="#" class="resources__link"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1"></a>
         </li>
         <li>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" alt=""></a>
+          <a href="#" class="resources__link"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
         </li>
         <li>
-          <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" alt=""></a>
+          <a href="#" class="resources__link"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
         </li>
       </ul>
     </section>
@@ -251,7 +252,7 @@
             <li><a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
         </nav>
-        <div class="footer__column footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/youtube-icon.svg"
@@ -263,7 +264,7 @@
             <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/tiktok-icon.svg"
                   alt="Тикток">TikTok</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </div>
